@@ -154,7 +154,7 @@ which can then have their own keys associated with it. So, for example,
 invoking Space-Keys and then pressing t, followed by s will invoke
 *tabs:close-saved-tabs* command.
 
-# Why Name it Space-Keys
+# Why is it called Space-Keys?
 
 Mostly because of its association with SpaceMacs, although this package is
 a bit different in that it does not replace the key bindings already present
@@ -168,7 +168,7 @@ certainly not just space.
 Most similar is [Proton / Space-Atom](https://github.com/dvcrn/proton).
 However, Proton is a much more ambitious project written in Clojure which aims
 to reproduce the SpaceMacs layer-based configuration. I am just interested in
-getting the key bindings working. In addition, I don't think Proton is buit to
+getting the key bindings working. In addition, I don't think Proton is built to
 completely change the keybindings around.
 
 
