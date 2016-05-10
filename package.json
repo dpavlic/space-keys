@@ -1,0 +1,20 @@
+{
+  "name": "Space-Keys",
+  "main": "./lib/space-keys",
+  "version": "0.0.1",
+  "description": "User-defined mnemonics following the Spacemacs style",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "space-keys:toggle"
+  },
+  "repository": "https://github.com/atom/space-keys",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 "
+  },
+  "dependencies": {
+    "season": ">=5.0.0",
+    "fs-extra": ">=0.30.0"
+  }
+}

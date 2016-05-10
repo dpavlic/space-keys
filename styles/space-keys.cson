@@ -1,0 +1,33 @@
+a:
+  name: 'do this'
+  subkeys:
+    a:
+      name: 'do a key'
+      command: 'tabs:close-tab'
+    b:
+      name: 'buffer delete'
+      command: 'application:about'
+    c:
+      name: 'this one goes down even further'
+      subkeys:
+        a:
+          name: 'key three down'
+          command: 'this is it'
+        b:
+          name: 'do the needful'
+          command: 'needful'
+    d:
+      name: 'do something else here'
+      command: 'some command d'
+b:
+  name: 'nested once'
+  command: 'some atom command'
+c:
+  name: 'this goes down'
+  subkeys:
+    a:
+      name: 'some name'
+      command: 'nest1'
+    b:
+      name: 'nest2'
+      command: 'nest2'
